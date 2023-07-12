@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#Desconto {
+    background-color: #f2f2f2;
+    opacity: 1;
+    height: 35px;
+}
+
+#Desconto p {
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
+#rodap {
+    background: red;
+    text-align: left;
+    padding: 10px;
+}
+
+#rodap img {
+    width: 70px;
+    height: 70px;
+}
+
+
