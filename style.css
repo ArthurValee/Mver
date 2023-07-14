@@ -1,34 +1,177 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.contener-promo {
+    background-color: #F2F2F2;
+    height: 30px;
+    position: relative;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-}
+.contener-promo p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
-#Desconto {
-    background-color: #f2f2f2;
-    opacity: 1;
-    height: 35px;
-}
-
-#Desconto p {
-    text-align: center;
     font-size: small;
+}
+
+/*                     Promocao                                */
+
+.contener-menu {
+    background-color: white;
+    height: 100px;
+    position: relative;
+}
+
+.contener-menu-logo {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.contener-menu-logo img {
+    height: 90px;
+    width: 90px;
+}
+
+.contener-menu-menu {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contener-menu-menu a:visited {
+    color: black;
+}
+
+.contener-menu-menu ul li a {
+    text-decoration: none;
     padding: 10px;
 }
 
-#rodap {
-    background: red;
-    text-align: left;
-    padding: 10px;
+.contener-menu-menu ul li a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    opacity: 0.5;
 }
 
-#rodap img {
-    width: 70px;
-    height: 70px;
+.contener-menu-menu ul li{
+    color: #F2F2F2;
+    text-align: center;
+    border-radius: 3px;
+    display: inline;
+    margin-right: 50px;
 }
 
+/*                     slide                                */
 
+.slide-body {
+    background: url(./img/vitrine.png) no-repeat top center/cover;
+    height: 80vh;
+}
+
+/*                     Product box                                */
+
+.Products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#box-1 {
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+    height: 500px;
+    padding: 50px;
+    margin: 10px;
+    position: relative;
+}
+
+#box-1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#box-1 img {
+    text-align: center;
+    height: 250px;
+    margin-bottom: 10px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#box-1 p {
+    margin: 15px;
+    text-align: center;
+    color: #83C4C7;
+}
+
+#box-1 h3 {
+    margin: 20px;
+    text-align: center;
+    color: #86CACD;
+}
+
+#text-product {
+    display: block;
+    text-align: center;
+}
+
+#text-product h3 {
+    display: inline;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #787877;
+}
+
+#text-product h1 {
+    display: inline-block;
+    font-size: 20px;
+    color: #86CACD;
+}
+
+.bottom-shop {
+    position: absolute;
+}
+
+#bottom-shop input {
+    margin-top: 10px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 40%;
+    height: 30px;
+
+    border-radius: 50px;
+    border: 0;
+
+    color: white;
+    background: #86CACD;
+}
+
+/*                     Direitos                                */
+
+footer {
+    background: #F2F2F2;
+    font-size: small;
+    padding: 24px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
