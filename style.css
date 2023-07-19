@@ -78,6 +78,7 @@
 
 #cotener-menu-mobile button {
   border: 0;
+  background-color: transparent;
 }
 
 /*                     slide                                */
@@ -246,6 +247,7 @@ footer a {
   #menu-mobile ul li {
     display: block;
     margin: 1em;
+    background-color: transparent;
   }
 
   #menu-mobile ul li a {
