@@ -10,7 +10,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
 
-  font-size: small;
+  font-size: 1em;
 }
 
 /*                     Promocao                                */
@@ -69,6 +69,14 @@
 
 #cotener-menu-mobile ion-icon {
   font-size: 2em;
+}
+
+.light {
+  background-color: red;
+}
+
+#cotener-menu-mobile button {
+  border: 0;
 }
 
 /*                     slide                                */
@@ -210,16 +218,42 @@ footer a {
     display: none;
   }
 
+  #contener-menu-mob {
+    background-color: white;
+    height: 13em;
+    position: relative;
+  }
+
+  #menu-mobile {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #menu-mobile ul li {
+    display: block;
+    margin: 1em;
+  }
+
+  #menu-mobile ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 4em;
+  }
+
+  .open {
+    display: none;
+  }
+
   footer {
     font-size: 0.8em;
   }
 }
-
-/*
-   position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-    font-size: small;
-*/

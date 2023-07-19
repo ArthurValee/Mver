@@ -15,16 +15,33 @@
 
 <body>
   <div class="contener">
+
     <div class="contener-promo">
       <p>20% Extra + Frete Grátis nas compras acima de R$ 99</p>
     </div>
+
     <div class="contener-menu">
+
       <div class="contener-menu-logo">
         <img src="./img/png/icon-black.png">
       </div>
+
       <div id="cotener-menu-mobile">
-        <ion-icon name="list-outline"></ion-icon>
+        <button onclick="menuShow()"><ion-icon name="list-outline"></ion-icon></button>
       </div>
+
+      <div id="contener-menu-mob" class="open">
+        <div id="menu-mobile">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Camisas</a></li>
+            <li><a href="#">Todos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+
       <div class="contener-menu-menu">
         <ul>
           <li><a href="#">Home</a></li>
@@ -33,6 +50,7 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
+
     </div>
 
     <div class="slide-body">

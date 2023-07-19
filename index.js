@@ -1,4 +1,8 @@
-function deletImg() {
-    const html = document.querySelector(".contener-menu-logo img")
-    html.classList.toggle('contener-menu-logo img')
+function menuShow() {
+  let menuMobile = document.querySelector("#contener-menu-mob")
+  if (menuMobile.classList.contains("open")) {
+    menuMobile.classList.remove("open")
+  } else {
+    menuMobile.classList.add("open")
+  }
 }
