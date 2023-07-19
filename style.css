@@ -63,6 +63,10 @@
   margin-right: 50px;
 }
 
+.contener-menu-menu ul li a {
+  color: black;
+}
+
 #cotener-menu-mobile {
   display: none;
 }
@@ -172,6 +176,10 @@
 
 /*                     Direitos                                */
 
+.open {
+  display: none;
+}
+
 footer {
   background: #f2f2f2;
   font-size: small;
@@ -247,10 +255,6 @@ footer a {
     text-decoration: none;
     color: black;
     padding: 4em;
-  }
-
-  .open {
-    display: none;
   }
 
   footer {
