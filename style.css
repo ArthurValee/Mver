@@ -46,6 +46,7 @@
 .contener-menu-menu ul li a {
   text-decoration: none;
   padding: 10px;
+  color: black;
 }
 
 .contener-menu-menu ul li a:hover {
@@ -61,10 +62,6 @@
   border-radius: 3px;
   display: inline;
   margin-right: 50px;
-}
-
-.contener-menu-menu ul li a {
-  color: black;
 }
 
 #cotener-menu-mobile {
