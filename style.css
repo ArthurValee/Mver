@@ -34,7 +34,7 @@
 
 .contener-menu-menu {
   position: absolute;
-  right: 5%;
+  right: 1%;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -61,6 +61,14 @@
   border-radius: 3px;
   display: inline;
   margin-right: 50px;
+}
+
+#cotener-menu-mobile {
+  display: none;
+}
+
+#cotener-menu-mobile ion-icon {
+  font-size: 2em;
 }
 
 /*                     slide                                */
@@ -175,6 +183,14 @@ footer a {
     text-align: center;
   }
 
+  #cotener-menu-mobile {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+
   .slide-body img {
     width: 100%;
     margin: 0;
@@ -190,6 +206,10 @@ footer a {
     text-align: center;
     font-size: 0.6em;
   }
+  .contener-menu-menu {
+    display: none;
+  }
+
   footer {
     font-size: 0.8em;
   }
