@@ -22,7 +22,7 @@
 }
 
 .contener-menu-logo {
-  padding: 10px;
+  margin: 10px;
   margin-left: 50px;
 }
 
@@ -45,7 +45,7 @@
 
 .contener-menu-menu ul li a {
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   color: black;
 }
 
@@ -225,6 +225,7 @@ footer a {
   }
 
   #contener-menu-mob {
+    margin-top: 0px;
     background-color: white;
     height: 13em;
     position: relative;
