@@ -98,7 +98,7 @@
 }
 
 #box-1 {
-  border: 1px solid black;
+  padding: 5em;
   float: left;
   width: 30%;
   height: 500px;
