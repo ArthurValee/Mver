@@ -257,6 +257,7 @@ footer a {
     font-size: large;
     color: black;
     margin: 4em;
+    background-color: transparent;
   }
 
   footer {
