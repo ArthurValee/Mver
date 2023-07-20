@@ -254,8 +254,9 @@ footer a {
 
   #menu-mobile ul li a {
     text-decoration: none;
+    font-size: large;
     color: black;
-    padding: 4em;
+    margin: 4em;
   }
 
   footer {
